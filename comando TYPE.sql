@@ -1,0 +1,8 @@
+--type
+SET SERVEROUTPUT ON;
+DECLARE a NUMBER:=9;
+        b a%TYPE:=8;
+BEGIN
+    b:=88888;
+    DBMS_OUTPUT.PUT_LINE(b);
+END;
